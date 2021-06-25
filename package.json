@@ -1,0 +1,20 @@
+{
+  "name": "sneakers_infos",
+  "version": "1.0.0",
+  "description": "back-end de um sistema simples para armazenar informações sobre sneakers, e consultar suas médias de preço em tempo real em plataformas de revenda online",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "carlosBSMedeiros",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
